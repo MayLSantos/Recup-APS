@@ -1,0 +1,89 @@
+/*Reset*/
+* {
+  margin: 0 auto;
+  padding: 0;
+}
+
+header,main, footer{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  padding: 10px;
+  background-color: black;
+}
+
+/*Menu*/
+
+.menu{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.menu ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  list-style: none;
+}
+
+.menu  li a{
+  padding: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu a:hover{
+  background-color: white;
+  color: black;
+}
+
+.pesquisa{padding: 8px;}
+
+/*Body*/
+
+body {
+  font-family: arial, verdana, sans-serif;
+  font-size: 16px;
+} /*Esse já é o padrão. A gente pode mudar a fonte depois*/
+
+/*Login*/
+.entrada{
+  display: flex;
+  align-items: center;
+  margin: 100px;
+
+}
+
+.login{
+  border: 3px solid black;
+  padding: 50px;
+  background: lightgray;
+
+}
+
+.login input{
+  display: flex;
+  flex-direction: column;
+}
+
+.login a {color: black;}
+.login a:hover{color: black;}
+
+#botão{
+  padding: 6px 12px 6px 12px;
+  background: black;
+  color: white;
+}
+
+
+/*Rodapé - teste*/
+
+footer{
+  background: gray;
+  color: white;
+  padding: 20px;
+}
